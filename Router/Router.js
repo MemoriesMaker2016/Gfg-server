@@ -9,6 +9,14 @@ Router.get('/',(req,res)=>{
 
 })
 
+Router.get('/work',(req,res)=>{
+ 
+  res.send("sever start sucessfully in work")
+
+})
+
+
+
 
 
 
