@@ -5,7 +5,13 @@ const Router = express.Router()
 
 Router.get('/',(req,res)=>{
  
-    res.send("sever start sucessfully")
+  res.send("sever start sucessfully")
+
+})
+
+Router.get('/git',(req,res)=>{
+ 
+  res.send("sever start sucessfully")
 
 })
 
