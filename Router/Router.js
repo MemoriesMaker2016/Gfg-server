@@ -9,11 +9,6 @@ Router.get('/',(req,res)=>{
 
 })
 
-Router.get('/git',(req,res)=>{
- 
-  res.send("sever start sucessfully")
-
-})
 
 
 
