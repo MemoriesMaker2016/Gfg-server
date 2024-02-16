@@ -1,6 +1,4 @@
-require('dotenv').config({
-    path:"./config.env"
-})
+require('dotenv').config()
 const express = require('express')
 const Router = require('./Router/Router')
 const app = express()
